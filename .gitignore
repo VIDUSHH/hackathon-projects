@@ -1,0 +1,44 @@
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.env
+
+# SQLite Database (don't push your local DB to Github)
+*.db
+*.sqlite3
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.DS_Store
+
+# Frontend / Node
+node_modules/
+dist/
+build/
+.npm
+package-lock.json
+
+# Build and Temp folders
+tmp/
+temp/
+logs/
+*.log
+
+# OS
+Thumbs.db
+
+# Python cache everywhere
+**/__pycache__/
+
+# Model artifacts (optional)
+saved_models/
+
+# Dataset (optional if large)
+datasets/
+
